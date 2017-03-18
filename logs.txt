@@ -1,0 +1,1917 @@
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 1
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 2
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 1
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - getAllUserItems: [
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2]
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - getAllUserItems: [
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2]
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - getAllUserItems: [
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2]
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - deleteItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - updateUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - updateUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - updateUser: 
+> User: 
+	Id: 3
+	Name: Ronen
+	Items: 5
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 3
+	Description: change clothes
+	User-Id: 1, 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1]
+INFO - getUser: 
+> User: 
+	Id: 1
+	Name: Danit
+	Items: 1,2
+INFO - getAllUserItems: [
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2]
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	Name: Jony
+	Items: 5,3,6
+INFO - deleteItem: 
+> Item: 
+	Id: 4
+	Description: new new
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: dsfsdf
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: sfsdfds
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 5
+	Description: ffffff
+	User-Id: 3
+INFO - updateItem: 
+> Item: 
+	Id: 6
+	Description: new new
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: dsfsdf
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: sfsdfds
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 5
+	Description: ffffff
+	User-Id: 3
+INFO - updateItem: 
+> Item: 
+	Id: 6
+	Description: new new
+	User-Id: 1
+INFO - deleteAllUserItems
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: dsfsdf
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: sfsdfds
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 5
+	Description: ffffff
+	User-Id: 3
+INFO - updateItem: 
+> Item: 
+	Id: 6
+	Description: new new
+	User-Id: 1
+INFO - deleteAllUserItems
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: dsfsdf
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: sfsdfds
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 5
+	Description: ffffff
+	User-Id: 3
+INFO - updateItem: 
+> Item: 
+	Id: 6
+	Description: new new
+	User-Id: 1
+INFO - deleteAllUserItems
+INFO - updateItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - updateItem: 
+> Item: 
+	Id: 3
+	Description: dsfsdf
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 4
+	Description: sfsdfds
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 5
+	Description: ffffff
+	User-Id: 3
+INFO - updateItem: 
+> Item: 
+	Id: 6
+	Description: new new
+	User-Id: 1
+INFO - deleteAllUserItems
+INFO - addUser: 
+> User: 
+	Id: 1
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin
+INFO - addUser: 
+> User: 
+	Id: 2
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe
+INFO - addUser: 
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan
+INFO - addItem: 
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 3
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 4
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 5
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 1
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 2
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan]
+INFO - getAllUserItems: [
+> Item: 
+	Id: 1
+	Description: buy water
+	User-Id: 1, 
+> Item: 
+	Id: 5
+	Description: study for math test
+	User-Id: 1]
+INFO - deleteUser: 
+> User: 
+	Id: 1
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin
+INFO - addUser: 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin
+INFO - addUser: 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe
+INFO - addUser: 
+> User: 
+	Id: 6
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan
+INFO - addItem: 
+> Item: 
+	Id: 6
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 7
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 8
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 9
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 10
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 2
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 6
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan]
+INFO - getAllUserItems: [
+> Item: 
+	Id: 2
+	Description: clean house
+	User-Id: 2, 
+> Item: 
+	Id: 7
+	Description: clean house
+	User-Id: 2]
+INFO - deleteUser: 
+> User: 
+	Id: 2
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe
+INFO - deleteAllUserItems
+INFO - getAllUsers: [
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addItem: 
+> Item: 
+	Id: 11
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 12
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 13
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 14
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 15
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUserItems: [
+> Item: 
+	Id: 3
+	Description: sleep all day long
+	User-Id: 3, 
+> Item: 
+	Id: 4
+	Description: eat food as much as I can
+	User-Id: 3, 
+> Item: 
+	Id: 8
+	Description: sleep all day long
+	User-Id: 3, 
+> Item: 
+	Id: 9
+	Description: eat food as much as I can
+	User-Id: 3, 
+> Item: 
+	Id: 13
+	Description: sleep all day long
+	User-Id: 3, 
+> Item: 
+	Id: 14
+	Description: eat food as much as I can
+	User-Id: 3]
+INFO - deleteUser: 
+> User: 
+	Id: 3
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan
+INFO - deleteAllUserItems
+INFO - getAllUsers: [
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addUser: 
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan
+INFO - addItem: 
+> Item: 
+	Id: 16
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 17
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 18
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 19
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 20
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan]
+INFO - getAllUserItems: []
+INFO - deleteUser: 
+> User: 
+	Id: 4
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin
+INFO - deleteAllUserItems
+INFO - getAllUsers: [
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan]
+INFO - addUser: 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin
+INFO - getAllUsers: [
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin]
+INFO - getAllUsers: [
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin]
+INFO - addItem: 
+> Item: 
+	Id: 21
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 22
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 23
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 24
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 25
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe, 
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin]
+INFO - getAllUserItems: []
+INFO - deleteUser: 
+> User: 
+	Id: 5
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe
+INFO - deleteAllUserItems
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin]
+INFO - addUser: 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addItem: 
+> Item: 
+	Id: 26
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 27
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 28
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 29
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 30
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addItem: 
+> Item: 
+	Id: 31
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 32
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 33
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 34
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 35
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addItem: 
+> Item: 
+	Id: 36
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 37
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 38
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 39
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 40
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addItem: 
+> Item: 
+	Id: 41
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 42
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 43
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 44
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 45
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addItem: 
+> Item: 
+	Id: 46
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 47
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 48
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 49
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 50
+	Description: study for math test
+	User-Id: 1
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 8
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan, 
+> User: 
+	Id: 9
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 10
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - getAllUsers: [
+> User: 
+	Id: 1
+	UserName: naama
+	FirstName: k
+	LastName: k]
+INFO - addUser: 
+> User: 
+	Id: 2
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin
+INFO - getAllUsers: [
+> User: 
+	Id: 1
+	UserName: naama
+	FirstName: k
+	LastName: k, 
+> User: 
+	Id: 2
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin]
+INFO - addUser: 
+> User: 
+	Id: 3
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe
+INFO - getAllUsers: [
+> User: 
+	Id: 1
+	UserName: naama
+	FirstName: k
+	LastName: k, 
+> User: 
+	Id: 2
+	UserName: DanitL
+	FirstName: Danit
+	LastName: Levin, 
+> User: 
+	Id: 3
+	UserName: JD
+	FirstName: Jane
+	LastName: Doe]
+INFO - addUser: 
+> User: 
+	Id: 4
+	UserName: GameBoy
+	FirstName: Gal
+	LastName: Dan
+INFO - addItem: 
+> Item: 
+	Id: 6
+	Description: buy water
+	User-Id: 1
+INFO - addItem: 
+> Item: 
+	Id: 7
+	Description: clean house
+	User-Id: 2
+INFO - addItem: 
+> Item: 
+	Id: 8
+	Description: sleep all day long
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 9
+	Description: eat food as much as I can
+	User-Id: 3
+INFO - addItem: 
+> Item: 
+	Id: 10
+	Description: study for math test
+	User-Id: 1
+INFO - updateItem: 
+> Item: 
+	Id: 10
+	Description: newnewnewnew
+	User-Id: 1
