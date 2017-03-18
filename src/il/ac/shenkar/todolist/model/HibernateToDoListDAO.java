@@ -16,7 +16,10 @@ import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 import org.hibernate.tool.hbm2ddl.SchemaExport;
-
+/**
+ *implements the interface IToDoListDAO 
+ *
+ */
 public class HibernateToDoListDAO implements IToDoListDAO {
 
 	private static SessionFactory factory;
@@ -25,6 +28,9 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 	
 	private static AnnotationConfiguration config;
 	
+	/**
+	 * constructor
+	 */
 	private HibernateToDoListDAO() {
 		// configuring mySql schemas with annotations
 		config = new AnnotationConfiguration();
@@ -43,6 +49,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		}
 	}
 	
+	/**
+	 * implementation of singleton
+	 * @return
+	 */
 	public static HibernateToDoListDAO getInstance(){
 		if (instance == null){
 			instance = new HibernateToDoListDAO();
@@ -50,6 +60,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return instance;
 	}
 	
+	/**
+	 * adds User to DB
+	 * @return User
+	 */
 	@Override
 	public User addUser(User user) throws ToDoListException {
 		Session session = factory.openSession();
@@ -76,6 +90,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return user;
 	}
 	
+	/**
+	 * adds task to DB
+	 * @return Item
+	 */
 	@Override
 	public Item addItem(Item item) throws ToDoListException {
 		Session session = factory.openSession();
@@ -98,6 +116,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return item;
 	}
 
+	/**
+	 * updates Item on DB
+	 * @return Item
+	 */
 	@Override
 	public Item updateItem(Item item) throws ToDoListException {
 		Session session = factory.openSession();
@@ -120,6 +142,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return item;
 	}
 	
+	/**
+	 * returns a list of tasks that belongs to a certain user
+	 * @return List
+	 */
 	@Override
 	public List<Item> getAllUserItems(int userId) throws ToDoListException {
 		Session session = factory.openSession();
@@ -142,6 +168,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return itemList;
 	}
 	
+	/**
+	 * returns User from DB
+	 * @return User
+	 */
 	@Override
 	public User getUser(int userId) throws ToDoListException {
 		Session session = factory.openSession();
@@ -162,6 +192,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return user;
 	}
 	
+	/**
+	 * returns item from DB
+	 * @return Item 
+	 */
 	@Override
 	public Item getItem(int itemId) throws ToDoListException {
 		Session session = factory.openSession();
@@ -182,6 +216,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return item;
 	}
 	
+	/**
+	 * deletes user from DB
+	 * @return User
+	 */
 	@Override
 	public User deleteUser(int userId) throws ToDoListException {
 		Session session = factory.openSession();
@@ -209,6 +247,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return user;
 	}
 	
+	/**
+	 * deletes item from DB
+	 * @return Item
+	 */
 	@Override
 	public Item deleteItem(int itemId) throws ToDoListException {
 		Session session = factory.openSession();
@@ -233,6 +275,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return item;
 	}
 	
+	/**
+	 * deletes all tasks that belongs to a certain user
+	 * @return List
+	 */
 	@Override
 	public List<Item> deleteAllUserItems(int userId) throws ToDoListException {
 		Session session = factory.openSession();
@@ -260,6 +306,10 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return itemList;
 	}
 	
+	/**
+	 * returns all users existing on DB
+	 * @return List
+	 */
 	@Override
 	public List<User> getAllUsers() throws ToDoListException {
 		Session session = factory.openSession();
@@ -283,6 +333,12 @@ public class HibernateToDoListDAO implements IToDoListDAO {
 		return userList;
 	}
 	
+	/**
+	 * Verifying if user exists on DB
+	 * @param userName
+	 * @return User
+	 * @throws ToDoListException
+	 */
 	private User checkIfUserExists(String userName) throws ToDoListException {
 		List<User> userList;
 		try {

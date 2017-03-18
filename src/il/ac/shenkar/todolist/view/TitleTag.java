@@ -4,6 +4,10 @@ import javax.servlet.jsp.tagext.*;
 import javax.servlet.jsp.*;
 import java.io.*;
 
+/**
+ * creates new JSP tag
+ *
+ */
 public class TitleTag extends SimpleTagSupport{
 
 	private String message;

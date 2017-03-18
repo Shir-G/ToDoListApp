@@ -35,13 +35,14 @@ public class Controller extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		
 		HttpSession session = request.getSession();
 		String path = request.getPathInfo();
 		RequestDispatcher dispatcher = null;
 		
 		switch (path) {
+		
+		//user registration page
 		case "/register":
 			User user = getNewUser(request);
 			try {
@@ -60,6 +61,7 @@ public class Controller extends HttpServlet {
 			
 			break;
 			
+		//user login page	
 		case "/login":			
 			try {
 				User userForLogin = getExistUser(request);
@@ -79,6 +81,7 @@ public class Controller extends HttpServlet {
 			
 			break;
 			
+		//in case user want to logout	
 		case "/logout":
 			try{
 				int userIdForLogout = getUserId(request);
@@ -100,6 +103,7 @@ public class Controller extends HttpServlet {
 			
 			break;
 			
+		//in case user wants to add task to list
 		case "/addItem":
 			Item item = getNewItem(request);
 			try {
@@ -114,6 +118,7 @@ public class Controller extends HttpServlet {
 			
 			break;
 			
+		//in case user wants to delete task from list
 		case "/deleteItem":
 			int itemId = getItemToDelete(request);
 			Item deletedItem;
@@ -129,6 +134,7 @@ public class Controller extends HttpServlet {
 			
 			break;
 			
+		//in case user wants to delete all tasks on list	
 		case "/deleteAll":
 			try {
 				int userId = getUserId(request);
@@ -143,6 +149,7 @@ public class Controller extends HttpServlet {
 			
 			break;		
 			
+		//default redirection to homepage 	
 		default:		
 			dispatcher = getServletContext().getRequestDispatcher("/homePage.jsp");
 			dispatcher.forward(request, response);
@@ -180,6 +187,7 @@ public class Controller extends HttpServlet {
 			
 			break;
 			
+		//user want to edit task
 		case "/updateItem":
 			try {
 				Item item = createUpdatedItem(request);
@@ -208,6 +216,15 @@ public class Controller extends HttpServlet {
 		return null;
 	}
 	
+	/**
+	 * error to be displayed when something goes wrong ,redirect it to error page
+	 * @param request
+	 * @param response
+	 * @param dispatcher
+	 * @param e
+	 * @throws ServletException
+	 * @throws IOException
+	 */
 	private void displayError(HttpServletRequest request, HttpServletResponse response, RequestDispatcher dispatcher, Throwable e) throws ServletException, IOException {
 		Cookie[] cookies = request.getCookies();
 		Cookie cookie = getCookieByName(cookies, "userName");
@@ -222,6 +239,11 @@ public class Controller extends HttpServlet {
 		dispatcher.forward(request, response);
 	}
 
+	/**
+	 * set new User on DB
+	 * @param request
+	 * @return User
+	 */
 	private User getNewUser(HttpServletRequest request) {
 		String userName = request.getParameter("userName");
 		String firstName = request.getParameter("firstName");
@@ -231,6 +253,11 @@ public class Controller extends HttpServlet {
 		return new User(userName, firstName, lastName, password);
 	}
 	
+	/**
+	 * set new Item on DB
+	 * @param request
+	 * @return Item
+	 */
 	private Item getNewItem(HttpServletRequest request) {
 		String itemName = request.getParameter("itemName");
 		int userId = Integer.parseInt(request.getParameter("userId"));
@@ -238,12 +265,23 @@ public class Controller extends HttpServlet {
 		return new Item(itemName, userId);
 	}
 	
+	/**
+	 * delete item from DB
+	 * @param request
+	 * @return int
+	 */
 	private int getItemToDelete(HttpServletRequest request) {
 		int itemId = Integer.parseInt(request.getParameter("itemId"));
 		
 		return itemId;
 	}
 	
+	/**
+	 * returns userId if found in DB
+	 * @param request
+	 * @return int
+	 * @throws ToDoListException
+	 */
 	private int getUserId(HttpServletRequest request) throws ToDoListException {
 		int userId = Integer.parseInt(request.getParameter("userId"));
 		
@@ -251,6 +289,11 @@ public class Controller extends HttpServlet {
 		return userId;
 	}
 	
+	/**
+	 * updates Item on DB
+	 * @param request
+	 * @return Item
+	 */
 	private Item createUpdatedItem(HttpServletRequest request) {
 		int itemId = Integer.parseInt(request.getParameter("name"));
 		String itemName = request.getParameter("value");
@@ -268,6 +311,12 @@ public class Controller extends HttpServlet {
 		return null; 
 	}
 	
+	/**
+	 * validates user credentials when trying to login
+	 * @param request
+	 * @return User 
+	 * @throws ToDoListException
+	 */
 	private User getExistUser(HttpServletRequest request) throws ToDoListException {
 		String userName = request.getParameter("userName");
 		String password = request.getParameter("password");
@@ -287,6 +336,12 @@ public class Controller extends HttpServlet {
 		return null;
 	}
 	
+	/**
+	 * Verifying if user exists on DB
+	 * @param userName
+	 * @return User
+	 * @throws ToDoListException
+	 */
 	private User checkIfUserExists(String userName) throws ToDoListException {
 		List<User> userList;
 		try {

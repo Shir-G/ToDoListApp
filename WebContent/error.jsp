@@ -1,3 +1,5 @@
+<jsp:useBean id="todo" scope="session" class="il.ac.shenkar.todolist.model.ToDoListException"/>
+<jsp:setProperty name="todo" property="errorMsg" param="errorMsg"/>
 <%@ page isErrorPage="true" language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -19,7 +21,8 @@
 <%
 		}
 %>
-		Error Message = <%= request.getAttribute("errorMsg") %>
+		<!--  Error Message = <%//=request.getAttribute("errorMsg") %> -->
+			  Error Message = <%= session.getAttribute(todo) %>
 				
 		<br><br>
 		<a href="/ToDoListApp/homePage.jsp" class="btn btn-default">Back to App</a>
