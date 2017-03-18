@@ -4,6 +4,8 @@ First, be sure to run the project on a computer with mySQL workbench.
 After running the project you can either click the "Register" button or the "Login" button (in case you are already registered).  
 Then simply add a task to your todo list by filling the text field and hitting the Enter key on your keyboard.  
 In order to mark a task off your list click the checklist square on its left.  
+You can alo edit the task by clicking the task descripyion and esit the text in the pop up window. Click "V" to save changes or "X" to ignore.
+If you like to change the tasks order you can drag them up or down the list.
 
 on any point you can log out of the system and login with another user by clicking "Logout".
 
