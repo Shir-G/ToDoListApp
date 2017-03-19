@@ -21,3 +21,6 @@ on any point you can log out of the system and login with another user by clicki
 ### Total = 4.5 pts.
 
 # Naama Kapach - Shir Gabai
+![2](https://cloud.githubusercontent.com/assets/15361166/24076917/d571cc5c-0c45-11e7-8fdf-c1fdbe172293.png)  
+![4](https://cloud.githubusercontent.com/assets/15361166/24076920/dc12b15c-0c45-11e7-9c3b-5ee7aa65fbcf.png)  
+![5](https://cloud.githubusercontent.com/assets/15361166/24076921/de714882-0c45-11e7-8fa8-9ec33cba99ef.png)  
